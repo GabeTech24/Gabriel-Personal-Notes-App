@@ -4,11 +4,11 @@ from .models import Notes
 # Create your views here.
 
 def notes_list(request):
-    return render(request, 'notes/templates/home.html')
+    return render(request, 'note/home.html')
 
 def add_note(request):
-    return render(request, 'notes/templates/add_note.html')
+    return render(request, 'note/add_note.html')
 
 def note_detail (request):
-    return render(request,'notes/templates/note_detail.html')
+    return render(request,'note/note_detail.html')
 
